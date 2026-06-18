@@ -1,0 +1,1188 @@
+<!-- Create a webpage for sarab restaurant  -->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+
+    <title>Sarab Restaurant</title>
+
+    <!-- Link bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- link boostrap icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- link bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Link CSS File  -->
+    <link rel="stylesheet" href="css/sarab.css">
+
+</head>
+
+<body>
+
+    <!-- NavBar  -->
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-white shadow sticky-top">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center logo-box" href="#home">
+                <img src="../Bootstrap/images/24632051f86d6ed93b36148b91f36567.jpg" alt="logo" width="60" height="60"
+                    class="rounded-circle me-2 shadow">
+                <div class="d-flex flex-column">
+                    <span class="fw-bold text-dark fs-1">Sar<span class="text-danger">ab</span></span>
+                    <small class="text-muted fs-6">Fast Food & Restaurant</small>
+                </div>
+            </a>
+
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <!-- Center Menu -->
+                <ul class="navbar-nav ms-auto gap-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chef">Chefs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- Right Side -->
+                <div class="d-lg-flex align-items-center gap-1">
+
+                    <input type="search" class="form-control mb-2 mb-lg-0" placeholder="Search">
+
+                    <a href="#menu" class="btn btn-danger rounded-pill px-3 flex-shrink-0"><i
+                            class="fas fa-shopping-basket"></i>
+                        Order Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Home Section  -->
+
+    <div id="home">
+        <section class="py-5 home-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 text-center text-lg-start home-content">
+
+                        <button class="btn rounded-pill px-4 me-2 mb-2 display-5 shadow-sm"><i
+                                class="fas fa-star text-warning"></i> #1 Rated Fast Food
+                            Restaurant in
+                            New
+                            York</button>
+                        <h1 class="display-2 fw-bold text-dark mb-4">Delicious<br><span class="text-danger"> Fast
+                                Food</span><br>
+                            for Every<br> Moment</h1>
+                        <p class="lead text-muted">Experience bold flavors crafted from premium ingredients. From crispy
+                            burgers to gourmet pizzas -
+                            every bite is an adventure worth savoring.</p>
+                        <div
+                            class="mt-4 d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+                            <button class="btn btn-danger rounded-pill px-4 py-2 shadow-sm btn_e"><i
+                                    class="fas fa-utensils"></i> Explore Menu</button>
+                            <button class="btn btn-outline-dark rounded-pill px-4 py-2 ms-4"><i
+                                    class="fas fa-play-circle text-danger me-2"></i>
+                                Watch Story</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center mt-4 mt-lg-0">
+                        <img src="../Bootstrap/images/banner1-img.jpg" alt="burger"
+                            class="img-fluid rounded-circle shadow w-75 home-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Category Section  -->
+        <section class="py-5 mb-4 category-section">
+            <div class="container text-center">
+                <h6 class="text-danger fw-bold">
+                    What We Offer
+                </h6>
+                <h1 class="fw-bold mb-5">Browse By Category</h1>
+                <p class="lead text-muted">From sizzling burgers to exotic world cuisines - find your<br> favourite in
+                    our
+                    menu</p>
+
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-4 col-lg-2 mb-4">
+                        <div class="card border-0 shadow-sm p-3 text-center rounded-4 category-card">
+                            <img src="../Bootstrap/images/banner1-img.jpg"
+                                class="img-fluid mx-auto mb-3 d-block rounded-circle" alt="allitems">
+                            <h6 class="fw-bold mb-1">All Items</h6>
+                            <p class="lead text-muted">99 items</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 mb-4">
+                        <div class="card border-0 shadow-sm p-3 text-center rounded-4 category-card">
+                            <img src="../Bootstrap/images/banner1-img.jpg"
+                                class="img-fluid mx-auto mb-3 d-block rounded-circle" alt="allitems">
+                            <h6 class="fw-bold mb-1">Burger</h6>
+                            <p class="lead text-muted">24 items</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 mb-4">
+                        <div class="card border-0 shadow-sm p-3 text-center rounded-4 category-card">
+                            <img src="../Bootstrap/images/pizza.jpg"
+                                class="img-fluid mx-auto mb-3 d-block rounded-circle" alt="allitems">
+                            <h6 class="fw-bold mb-1">Pizza</h6>
+                            <p class="lead text-muted">18 items</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 mb-4">
+                        <div class="card border-0 shadow-sm p-3 text-center rounded-4 category-card">
+                            <img src="../Bootstrap/images/fride-chi.jpg"
+                                class="img-fluid mx-auto mb-3 d-block rounded-circle" alt="allitems">
+                            <h6 class="fw-bold mb-1">Fried chicken</h6>
+                            <p class="lead text-muted">15 items</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 mb-4">
+                        <div class="card border-0 shadow-sm p-3 text-center rounded-4 category-card">
+                            <img src="../Bootstrap/images/wraps.jpg"
+                                class="img-fluid mx-auto mb-3 d-block rounded-circle" alt="allitems">
+                            <h6 class="fw-bold mb-1">Wraps</h6>
+                            <p class="lead text-muted">12 items</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 mb-4">
+                        <div class="card border-0 shadow-sm p-3 text-center rounded-4 category-card">
+                            <img src="../Bootstrap/images/desserts.jpg"
+                                class="img-fluid mx-auto mb-3 d-block rounded-circle" alt="allitems">
+                            <h6 class="fw-bold mb-1">Desserts</h6>
+                            <p class="lead text-muted">20 items</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <!-- About section (Our story)   -->
+    <section id="about" class="py-5 about-sectio">
+        <div class="container text-center">
+            <div class="row align-items-center g-5">
+
+                <div class="col-12 col-lg-6">
+                    <img src="../Bootstrap/images/restaurant.jpg" alt="restaurant"
+                        class="img-fluid rounded-4 shadow-sm about-img">
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <h6 class="text-danger fw-bold text-start">Our Story</h6>
+                    <h1 class="display-6 fw-bold text-start">We Invite You To Visit</h1>
+                    <h1 class="display-6 fw-bold text-start">Our <span class="text-danger">Food Restaurant</span></h1>
+                    <p class="text-muted mb-4 text-start">Founded in 2012, Sarab began as a small corner joint with a
+                        big dream - to serve food that brings people together. Today we're proud to serve thousands of
+                        happy customers every week with the same passion that started it all.</p>
+
+                    <div>
+                        <h6 class="fw-bold mb-1 text-start"><i class="fas fa-leaf text-danger"></i> 100% Fresh
+                            Ingredients</h6>
+                        <p class="text-muted small mb-3 text-start"> We source locally and sustainably. Every ingredient
+                            is hand-picked daily for maximum freshness.</p>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold mb-1 text-start"><i class="fas fa-award text-warning"></i> Award-Winning
+                            Recipes</h6>
+                        <p class="text-muted small mb-3 text-start"> Our signature recipes have won national culinary
+                            awards 5 years in a row.</p>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold mb-1 text-start"><i class="fas fa-truck text-success"></i> Lightning-Fast
+                            Delivery</h6>
+                        <p class="text-muted small mb-3 text-start"> Order online and get hot, fresh food at your door
+                            in
+                            under 25 minutes, guaranteed.</p>
+                    </div>
+
+                    <div class="text-start">
+                        <button class="btn btn-danger rounded-pill px-4 py-2 shadow-sm"><i
+                                class="fas fa-book-open me-2"></i>
+                            View Full Menu</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Menu Section (What's Cooking)  -->
+
+    <section id="menu" class="py-5 menu-section">
+        <div class="container text-center">
+
+            <div class="text-center mb-4">
+                <span class="text-danger fw-bold mb-1">What's Cooking</span>
+                <h2 class="fw-bold text-dark">Our Delicious <span class="text-danger">Menu</span></h2>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-center gap-2 mb-4" id="end">
+                <button class="btn btn-outline-secondary rounded-pill px-4 me-2 mb-2">All</button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 me-2 mb-2">Burgers</button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 me-2 mb-2">Pizza</button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 me-2 mb-2">Chicken</button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 me-2 mb-2">Wraps</button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 me-2 mb-2">Desserts</button>
+                <button class="btn btn-outline-secondary rounded-pill px-4 me-2 mb-2">Pasta</button>
+
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-start">
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/banner1-img.jpg" class="img-fluid card-img-top menu-img"
+                            alt="smash burger">
+                        <div class="card-body">
+                            <span class="text-danger">BURGER</span>
+                            <h5 class="card-title">Classic Smash Burger</h5>
+                            <p class="card-text text-muted">Double smashed patty, cheddar cheese, caramelized onions,
+                                house pickles and our legendary special sauce. Made fresh to order on a toasted brioche
+                                bun.</p>
+                            <h6 class="text-danger fw-bold">$12.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/pizza_pizza.jpg" class="card-img-top img-fluid menu-img"
+                            alt="pizza">
+                        <div class="card-body">
+                            <span class="text-danger">PIZZA</span>
+                            <h5 class="card-title">Margherita Royale</h5>
+                            <p class="card-text text-muted">San Marzano tomatoes, fresh buffalo mozzarella, fragrant
+                                basil leaves,
+                                drizzled with Italian truffle oil on a hand-stretched sourdough base.</p>
+                            <h6 class="text-danger fw-bold">$19.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/burger6.jpg" class="img-fluid card-img-top menu-img" alt="burger">
+                        <div class="card-body">
+                            <span class="text-danger">CHICKEN</span>
+                            <h5 class="card-title">Nashville Hot Chicken</h5>
+                            <p class="card-text text-muted">Extra-crispy fried chicken tossed in our signature fiery
+                                Nashville spice blend, served with honey drizzle and house pickles on a toasted brioche
+                                bun.</p>
+                            <h6 class="text-danger fw-bold">$12.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/wraps_wraps.jpg" class="img-fluid card-img-top menu-img"
+                            alt="burger">
+                        <div class="card-body">
+                            <span class="text-danger">Wraps</span>
+                            <h5 class="card-title">Loaded Fajita Wrap</h5>
+                            <p class="card-text text-muted">Grilled chicken strips, saut�ed bell peppers and onions,
+                                sour cream, fresh guacamole and salsa wrapped in a warm flour tortilla with melted
+                                cheddar.</p>
+                            <h6 class="text-danger fw-bold">$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/desserts.jpg" class="img-fluid card-img-top menu-img"
+                            alt="burger">
+                        <div class="card-body">
+                            <span class="text-danger">Desserts</span>
+                            <h5 class="card-title">Nutella Lava Cake</h5>
+                            <p class="card-text text-muted">Warm molten chocolate cake with a gooey Nutella center,
+                                served alongside Madagascar vanilla bean ice cream with salted caramel drizzle and fresh
+                                berries.</p>
+                            <h6 class="text-danger fw-bold">$8.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/pasta.jpg" class="img-fluid card-img-top menu-img" alt="burger">
+                        <div class="card-body">
+                            <span class="text-danger">Pasta</span>
+                            <h5 class="card-title">Truffle Mushroom Pasta</h5>
+                            <p class="card-text text-muted">Al dente tagliatelle tossed with mixed wild mushrooms,
+                                freshly shaved black truffle, aged parmesan, fresh thyme and a touch of cream in garlic
+                                butter.</p>
+                            <h6 class="text-danger fw-bold">$16.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center justify-content-center align-items-center">
+                <button class="btn btn_f btn-danger rounded-pill px-4 py-2 mt-4 shadow-sm text-center"><i
+                        class="fas fa-th-large me-2"></i>
+                    View Full Menu</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Food Showcase  -->
+
+    <section class="py-5 food-showcase-section">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="text-danger fw-bold mb-1 d-block">Food Showcase</span>
+                <h2 class="fw-bold text-dark pb-2">Let's See Our <span class="text-danger">Fast Food</span></h2>
+            </div>
+
+
+            <div class="row g-3">
+
+                <div class="col-12 col-lg-4">
+                    <div class="rounded-4 overflow-hidden shadow-sm h-100">
+                        <img src="../Bootstrap/images/burger_burger.jpg" alt="burger"
+                            class="img-fluid w-100 h-100 big-img object-fit-cover">
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-8">
+                    <div class="row g-3">
+
+                        <div class="col-6">
+                            <div class="rounded-4 overflow-hidden shadow-sm">
+                                <img src="../Bootstrap/images/pizza_pizza.jpg" alt="pizza"
+                                    class="img-fluid small-img w-100 object-fit-cover">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="rounded-4 overflow-hidden shadow-sm">
+                                <img src="../Bootstrap/images/burger_2_burger.jpg" alt="pizza"
+                                    class="img-fluid small-img w-100 object-fit-cover">
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-6">
+                            <div class="rounded-4 overflow-hidden shadow-sm">
+                                <img src="../Bootstrap/images/dessert_dessert.jpg" alt="pizza"
+                                    class="img-fluid small-img w-100 object-fit-cover">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="rounded-4 overflow-hidden shadow-sm">
+                                <img src="../Bootstrap/images/wraps_wraps.jpg" alt="pizza"
+                                    class="img-fluid small-img w-100 object-fit-cover">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Chef Team section -->
+
+    <section id="chef" class="py-5 chef-section">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="text-danger fw-bold mb-1">The Culinary Team</span>
+                <h2 class="fw-bold text-dark pb-2">Meet Our Expert <span class="text-danger">Chefs</span></h2>
+            </div>
+
+
+            <div class="row g-4 text-center">
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden chef-card">
+                        <img src="../Bootstrap/images/alice.jpg" class="img-fluid card-img-top chef-img"
+                            alt="smash burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Alice Mortal</h5>
+                            <span class="text-danger">HEAD CHEF</span>
+                            <p class="card-text text-muted">12 years experience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden chef-card">
+                        <img src="../Bootstrap/images/mitcheal.jpg" class="img-fluid card-img-top chef-img"
+                            alt="smash burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Corn</h5>
+                            <span class="text-danger">Grill Master</span>
+                            <p class="card-text text-muted">8 years experience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden chef-card">
+                        <img src="../Bootstrap/images/faz.jpg" class="img-fluid card-img-top chef-img"
+                            alt="smash burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Faz Chowdel</h5>
+                            <span class="text-danger">Pastry Chef</span>
+                            <p class="card-text text-muted">10 years experience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden chef-card">
+                        <img src="../Bootstrap/images/william.jpg" class="img-fluid card-img-top chef-img"
+                            alt="smash burger">
+                        <div class="card-body">
+                            <h5 class="card-title">William Latnum</h5>
+                            <span class="text-danger">Pizza Artisan</span>
+                            <p class="card-text text-muted">9 years experience</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Opening Hours  -->
+
+    <section class="py-5 opening-hours-section">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="text-danger fw-bold mb-1">Opening Hours</span>
+                <h2 class="fw-bold text-white pb-2">We're Open <span class="text11">For You</span></h2>
+            </div>
+
+            <div class="row g-4 align-items-stretch justify-content-center">
+
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="card p-4 rounded-4 h-100 d-flex flex-column justify-content-between">
+
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
+                            <span class="text-muted fs-6"><i class="far fa-calendar-alt text-warning me-2"></i>Monday -
+                                Tuesday</span>
+                            <span class="time-text fw-bold text-danger">* Closed</span>
+                        </div>
+
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
+                            <span class="text-muted fs-6"><i class="far fa-calendar-alt text-warning me-2"></i>Wednesday
+                                - Thursday</span>
+                            <span class="time-text fw-bold">* 09:00 AM - 11:00 PM</span>
+                        </div>
+
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
+                            <span class="text-muted fs-6"><i
+                                    class="far fa-calendar-alt text-warning me-2"></i>Friday</span>
+                            <span class="time-text fw-bold">* 09:00 AM - 11:00 PM</span>
+                        </div>
+
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
+                            <span class="text-muted fs-6"><i
+                                    class="far fa-calendar-alt text-warning me-2"></i>Saturday</span>
+                            <span class="time-text fw-bold">* 10:00 AM - 11:30 PM</span>
+                        </div>
+
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
+                            <span class="text-muted fs-6"><i
+                                    class="far fa-calendar-alt text-warning me-2"></i>Sunday</span>
+                            <span class="time-text fw-bold">* 11:00 AM - 09:00 PM</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card text-center mb-3 mt-3 text-white h-100 order-card">
+                        <h2 class="fw-bold pb-2 pt-3">Order Online</h2>
+                        <span class="text-white-70 mb-3">Get hot food delivered in 25 minutes</span><br>
+
+                        <button class="btn btn-light m-1 rounded-pill px-4 py-2 shadow-sm text-center"><i
+                                class="fas fa-play me-2"></i>
+                            Order Now ?</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card p-4 rounded-4 h-100 d-flex flex-column justify-content-between">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="me-2 fw-bold"><i class="fas fa-map-marker-alt text-warning me-2"></i>Find
+                                Us</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-muted fs-6"><i
+                                    class="fas fa-map-marker-alt text-warning me-2"></i>Address</span>
+                            <span class="time-text fw-bold">42 Flavor Street, NY</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-muted fs-6"><i class="fas fa-phone-alt text-warning me-2"></i>Phone</span>
+                            <span class="time-text fw-bold">+1 (800) 123-4567</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-muted fs-6"><i class="fas fa-envelope text-warning me-2"></i>Email</span>
+                            <span class="time-text fw-bold">hello@sarabfood.com</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Feedback  -->
+
+    <section id="reviews" class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="text-danger fw-bold">What People Say</span>
+                <h2 class="fw-bold">Our Customers <span class="text-danger">Feedback</span></h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 feed-card">
+
+                        <p class="text-muted lh-base mb-4">
+                            Honestly The Best Burger i've ever had. The Smash Burger is
+                            incrediable-perfectly crispy edges, juicy inside. and those pickles! We come every
+                            friday now.
+                        </p>
+
+                        <div class="d-flex align-items-center">
+
+                            <img src="../Bootstrap/images/Neymar.jpg"
+                                class="rounded-circle border border-danger border-2" width="60" height="60"
+                                alt="customer">
+
+                            <div class="ms-3">
+                                <h6 class="fw-bold mb-0">Neymar Jr</h6>
+                                <small class="text-muted">Regular Customer</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 feed-card">
+
+                        <p class="text-muted lh-base mb-4">
+                            Ordered delivery and the food arrived hot & fresh in 22 minutes. portion are generous.
+                            sarab has become my go-to comfort food spot without quesion.
+                        </p>
+
+                        <div class="d-flex align-items-center">
+
+                            <img src="../Bootstrap/images/messi.webp"
+                                class="rounded-circle border border-danger border-2" width="60" height="60"
+                                alt="customer">
+
+                            <div class="ms-3">
+                                <h6 class="fw-bold mb-0">Leo Messi</h6>
+                                <small class="text-muted">Food Blogger</small>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 feed-card">
+
+                        <p class="text-muted lh-base mb-4">
+                            Catered our office party of 50 people and everything was flawless. fresh, dilecious,
+                            on time and well presented. Nashville Chicken was the absolute star!.
+                        </p>
+
+                        <div class="d-flex align-items-center">
+
+                            <img src="../Bootstrap/images/cr.jpg" class="rounded-circle border border-danger border-2"
+                                width="60" height="60" alt="customer">
+
+                            <div class="ms-3">
+                                <h6 class="fw-bold mb-0">CR7</h6>
+                                <small class="text-muted">Corporate Client</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Reservation -->
+
+    <section class="py-5 reservation-section" id="reservation">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="text-danger fw-bold">Book a Table</span>
+                <h2 class="fw-bold">
+                    Make A <span class="text-danger">Reservation</span>
+                </h2>
+
+                <p class="text-muted mb-4 text-center">Reserve your table for a memorable dining experience. We<br>
+                    recommend booking 24 hours in advance for weekend<br> evenings.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-lg-4">
+
+                    <div class="card border-0 shadow-sm rounded-4 h-100 p-4">
+
+                        <h4 class="fw-bold">Contact Info</h4>
+                        <p class="text-muted  mb-4">We're happy to help you plan the perfect dining experience.</p>
+                        <div class="ps-3">
+                            <div>
+                                <h6 class="text-secondary fw-bold">Opening Hours</h6>
+                                <p>Wed - Sun, 9 AM - 11 PM</p>
+                            </div>
+
+                            <div>
+                                <h6 class="text-secondary fw-bold">Call For Booking</h6>
+                                <p>+1 (800) 123-4567</p>
+                            </div>
+
+                            <div>
+                                <h6 class="text-secondary fw-bold">Group Dining</h6>
+                                <p>Special menus for 10+ guests</p>
+                            </div>
+
+                            <div>
+                                <h6 class="text-secondary fw-bold">Location</h6>
+                                <p>42 Flavor Street, NY</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-8">
+
+                    <div class="card border-0 shadow-sm rounded-4 p-4">
+
+                        <form>
+
+                            <div class="row g-3">
+
+                                <div class="col-md-6">
+                                    <label for="f_name">Full Name *</label>
+                                    <input type="text" class="form-control shadow-sm" id="f_name"
+                                        placeholder="John Doe">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="phn">Phone Number *</label>
+                                    <input type="tel" class="form-control shadow-sm" id="phn"
+                                        placeholder="+1 (800) 000-0000">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="mail">Email Address *</label>
+                                    <input type="email" class="form-control shadow-sm" id="mail"
+                                        placeholder="You@email.com">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="guest">Number of Guests *</label>
+                                    <select class="form-select shadow-sm" id="guest">
+                                        <option>1 person</option>
+                                        <option>2 people</option>
+                                        <option>3-4 people</option>
+                                        <option>5-6 people</option>
+                                        <option>7-10 people</option>
+                                        <option>10+ people</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="date">Date *</label>
+                                    <input type="date" class="form-control shadow-sm" id="date">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="time">Time *</label>
+                                    <select class="form-select shadow-sm" id="time">
+                                        <option>09:00 AM</option>
+                                        <option>10:00 AM</option>
+                                        <option>11:00 AM</option>
+                                        <option>12:00 PM</option>
+                                        <option>01:00 PM</option>
+                                        <option>02:00 PM</option>
+                                        <option>06:00 PM</option>
+                                        <option>07:00 PM</option>
+                                        <option>08:00 PM</option>
+                                        <option>09:00 PM</option>
+                                        <option>10:00 PM</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="msg">Special Requests</label>
+                                    <textarea class="form-control shadow-sm" rows="3"
+                                        placeholder="Allergies, dietary needs,special occasions..." id="msg"></textarea>
+                                </div>
+
+                                <div class="col-12 text-center mt-4">
+                                    <button type="button" class="btn btn-danger rounded-pill px-5 py-2 shadow"> <i
+                                            class="fas fa-calendar-check"></i> Confirm Reservation
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Blog section  -->
+
+    <section id="menu" class="py-5 menu-section">
+        <div class="container text-center">
+
+            <div class="text-center mb-4">
+                <span class="text-danger fw-bold mb-1">News & Updates</span>
+                <h2 class="fw-bold text-dark">Our Latest <span class="text-danger">Blog</span> Posts</h2>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 text-start">
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/banner1-img.jpg" class="img-fluid card-img-top menu-img"
+                            alt="smash burger">
+                        <div class="card-body">
+                            <span class="text-danger">Food & Health</span>
+                            <h5 class="card-title">Healthy Fast Food: A Myth or Beautiful Reality</h5>
+                            <span><i class="fas fa-user p-2">James Writer</i></span>
+                            <span><i class="fas fa-comment p-2">24 Comments</i></span>
+                            <p class="text-danger text-start mt-2">Read More..</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/pizza_pizza.jpg" class="card-img-top img-fluid menu-img"
+                            alt="pizza">
+                        <div class="card-body">
+                            <span class="text-danger">Food Science</span>
+                            <h5 class="card-title">Is Fast Food Getting Healthier? Here's What We Found</h5>
+                            <span><i class="fas fa-user p-2">Sarah Grain</i></span>
+                            <span><i class="fas fa-comment p-2">18 Comments</i></span>
+                            <p class="text-danger text-start mt-2">Read More..</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-0">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden menu-card">
+                        <img src="../Bootstrap/images/burger_2_burger.jpg" class="img-fluid card-img-top menu-img"
+                            alt="burger">
+                        <div class="card-body">
+                            <span class="text-danger">Recipes</span>
+                            <h5 class="card-title">Innovative Hot Chickpeas Flake Crackin' Recipe at Home</h5>
+                            <span><i class="fas fa-user p-2">Chef Marcus</i></span>
+                            <span><i class="fas fa-comment p-2">32 Comments</i></span>
+                            <p class="text-danger text-start mt-2">Read More..</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Subscribe  -->
+
+    <section class="subscribe-section bg-maroon text-white text-center py-5">
+        <div class="container">
+            <p class="subtitle mb-2">Stay Connected</p>
+
+            <h2 class="fw-bold mb-3 display-6">
+                Subscribe & Get Exclusive <span class="highlight1">Deals</span>
+            </h2>
+
+            <p class="mb-4 text-light-white px-2">
+                Get 15% off your first order plus early access to new menu items
+            </p>
+
+            <form class="row g-2 justify-content-center mx-auto mb-3">
+                <div class="col-12 col-md-8">
+                    <input type="email" class="form-control rounded-pill py-3 px-4 shadow-none"
+                        placeholder="Enter your email address..." required>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button type="submit"
+                        class="btn btn-gold rounded-pill w-100 py-3 fw-bold d-flex align-items-center justify-content-center gap-2">
+                        <i class="fas fa-paper-plane"></i> Subscribe
+                    </button>
+                </div>
+            </form>
+
+            <p class="small text-muted-white mt-3">
+                <i class="fas fa-lock small me-1"></i> No spam, unsubscribe anytime.
+            </p>
+        </div>
+    </section>
+
+
+
+    <!-- Contact  -->
+
+    <section class="py-5 contact-section" id="contact">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="text-danger fw-bold">Get In Touch</span>
+                <h2 class="fw-bold">
+                    Contact <span class="text-danger">Us</span>
+                </h2>
+
+                <p class="text-muted mb-4 text-center">Have a question, feedback, or want to plan a special event?<br>
+                    We'd
+                    love to hear from you.evenings.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-lg-4">
+
+                    <div class="card border-0 shadow-sm rounded-4 h-100 p-4">
+
+                        <h4 class="fw-bold">Let's Talk</h4>
+                        <p class="text-muted  mb-4">
+                            We typically respond within 2 hours during<br> business hours.</p>
+                        <div class="ps-3">
+                            <div>
+                                <h6 class="text-secondary fw-bold"><i class="fas fa-map-marker-alt text-danger"></i> ADDRESS</h6>
+                                <p>42 Flavor Street, Manhattan,
+                                    New York, NY 10001</p>
+                            </div>
+
+                            <div>
+                                <h6 class="text-secondary fw-bold">PHONE</h6>
+                                <p>+1 (800) 123-4567</p>
+                            </div>
+
+                            <div>
+                                <h6 class="text-secondary fw-bold">EMAIL</h6>
+                                <p>hello@sarabfood.com</p>
+                            </div>
+
+                            <div>
+                                <h6 class="text-secondary fw-bold">WORKING HOURS</h6>
+                                <p>Wed - Sun: 9 AM - 11 PM</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-8">
+
+                    <div class="card border-0 shadow-sm rounded-4 p-4">
+
+                        <form>
+
+                            <div class="row g-3">
+
+                                <div class="col-md-6">
+                                    <label for="f_name">Your Name *</label>
+                                    <input type="text" class="form-control shadow-sm" id="f_name"
+                                        placeholder="John Doe">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="mail">Email Address *</label>
+                                    <input type="email" class="form-control shadow-sm" id="mail"
+                                        placeholder="You@email.com">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="phn">Phone Number *</label>
+                                    <input type="tel" class="form-control shadow-sm" id="phn"
+                                        placeholder="+1 (800) 000-0000">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="sub">Subject *</label>
+                                    <select class="form-select shadow-sm" id="sub">
+                                        <option>General Inquiry</option>
+                                        <option>Catering & Events</option>
+                                        <option>Feedback</option>
+                                        <option>Partnership</option>
+                                        <option>Media & Press</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="msg">Message</label>
+                                    <textarea class="form-control shadow-sm" rows="5"
+                                        placeholder="write your message here..." id="msg"></textarea>
+                                </div>
+
+                                <div class="col-12 mt-4">
+                                    <button type="button" class="btn btn-danger rounded-pill px-5 py-2 shadow">
+                                        Send Message
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer section  -->
+
+    <footer class="footer-section bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <span class="fw-bold text-white fs-1">Sar<span class="text-danger">ab</span></span>
+                    <p class="footer-desc text-muted">
+                        We bring the world's finest flavors together in a fast, friendly, and affordable experience.
+                        Every meal crafted with love.
+                    </p>
+
+                    <div class="social-links d-flex gap-3 mt-3">
+                        <a href="#" aria-label="."><i class="fab fa-facebook-f text-muted"></i></a>
+                        <a href="#" aria-label="."><i class="fab fa-instagram text-muted"></i></a>
+                        <a href="#" aria-label="."><i class="fab fa-twitter text-muted"></i></a>
+                        <a href="#" aria-label="."><i class="fab fa-youtube text-muted"></i></a>
+                        <a href="#" aria-label="."><i class="fab fa-tiktok text-muted"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <h5 class="fw-bold mb-3 column-title">Quick Links</h5>
+                    <ul class="list-unstyled footer-links text-muted">
+                        <li><a href="#home" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Home</a></li>
+                        <li><a href="#about" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>About Us</a></li>
+                        <li><a href="#menu" class="text-muted"><i class="fas fa-chevron-right me-2 text-danger"></i>Our
+                                Menu</a></li>
+                        <li><a href="#reservation" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Reservation</a>
+                        </li>
+                        <li><a href="#blog" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Blog</a></li>
+                        <li><a href="#contact" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <h5 class="fw-bold mb-3 column-title">Our Menu</h5>
+                    <ul class="list-unstyled footer-links text-muted">
+                        <li><a href="#end" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Burgers</a></li>
+                        <li><a href="#end" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Pizza</a></li>
+                        <li><a href="#end" class="text-muted"><i class="fas fa-chevron-right me-2 text-danger"></i>Fried
+                                Chicken</a></li>
+                        <li><a href="#end" class="text-muted"><i class="fas fa-chevron-right me-2 text-danger"></i>Wraps
+                                & Rolls</a></li>
+                        <li><a href="#end" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Pasta</a></li>
+                        <li><a href="#end" class="text-muted"><i
+                                    class="fas fa-chevron-right me-2 text-danger"></i>Desserts</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="fw-bold mb-3 column-title">Get In Touch</h5>
+                    <ul class="list-unstyled footer-contact text-muted">
+                        <li class="d-flex align-items-start mb-3">
+                            <i class="fas fa-map-marker-alt me-3 mt-1 contact-icon text-danger"></i>
+                            <span>123 Street, New York, USA</span>
+                        </li>
+                        <li class="d-flex align-items-start mb-3">
+                            <i class="fas fa-phone-alt me-3 mt-1 contact-icon text-danger"></i>
+                            <span>+012 345 67890</span>
+                        </li>
+                        <li class="d-flex align-items-start mb-3">
+                            <i class="fas fa-envelope me-3 mt-1 contact-icon text-danger"></i>
+                            <span>info@example.com</span>
+                        </li>
+                        <li class="d-flex align-items-start">
+                            <i class="fas fa-clock me-3 mt-1 contact-icon text-danger"></i>
+                            <span>Wed - Sun: 09 AM - 10 PM</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr class="my-4 border-secondary">
+
+            <div class="row align-items-center">
+                <div class="col-6 text-center text-md-start text-muted small">
+                    © 2026 <span class="text-danger">Sarab Restaurant</span>. All Rights Reserved by <a href="#"
+                        class="text-success text-decoration-none">Bestwpware</a>. Made with <i
+                        class="fas fa-heart text-danger"></i><br> Distributed by <a href="#"
+                        class="text-success text-decoration-none">ThemeWagon</a>
+                </div>
+
+                <div class="col-6 text-end text-md-end text-muted small">
+                    <span class="me-3">Privacy policy</span> <span class="me-3">Terms</span> <span>Cookies</span>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
